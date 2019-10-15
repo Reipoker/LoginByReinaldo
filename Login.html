@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aku Padamu</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <section>
+        <div class='ltitle' id="title"> Login
+        </div>
+        <div>
+            <form method="post" id="login" style="background-color:white;" action="" onsubmit="hide(); return false">
+                <table style="padding-left:30px;">
+                    <tr>
+                        <td style="height:35px;">Username</td>
+                        <td> : </td>
+                        <td><input type="text" required="username" placeholder="Username" id="user" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:35px;">Password</td>
+                        <td> : </td>
+                        <td><input type="password" required="password" placeholder="Password"></td>
+                    </tr>
+                </table>
+
+                <button type="submit" class="button1 btn1" style="margin-left:62%; margin-right:20%" name="submits">LOGIN</button>
+                <br /><br />
+            </form>
+        </div>
+
+        <div style="text-align:center; display: table; width:100%; height:75px;" id="notice">
+
+            <span style="display: table-cell;vertical-align: middle;">
+	
+	<h3>
+	</h3> 
+	<p> . </p>
+	
+	<i class="fa fa-html5" style="color: #34495e; font-size:70px;"></i>
+	 
+	<br /><br />
+	<b>  </b> 
+	<br /><br /><br />
+	Create by Reinaldo <br />
+	</span>
+        </div>
+
+
+        <!--End Login Page-->
+    </section>
+
+
+
+    <section id="mainpage" style="display:none;">
+
+        <div class="topnav" id="myTopnav">
+
+            <a href="#section1" class="active">Hello</a>
+
+            <a href="#canvas">Canvas Gradient Color</a>
+            <a href="#section2">Next Page</a>
+            <a href="#section3">Last Page</a>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <i class="fa fa-bars"> </i>
+            </a>
+        </div>
+        <div id="section1" style="text-align:center; display: table; width:100%;">
+
+            <span style="display: table-cell;vertical-align: middle;">
+<i class="fa fa-html5" style="color:white; font-size:70px;"></i>
+	<h2 id="name">Hello guys</h2>
+	<p>
+	Welcome to my page.
+	</p>
+	Scroll down or click the <i class="fa fa-bars"></i> navigation to see the content.
+</span>
+        </div>
+
+        <div id="canvas" style="text-align:center; display: table; width:100%;">
+
+            <span style="display: table-cell;vertical-align: middle;">
+
+<h2>Canvas Gradient Color</h2><br />
+
+<b>input <u>color-name</u> or <u>#hex-code</u></b><br /><br />
+
+Start Color 
+<input type="text" value="blue" style="width:60px;" maxlength="10" id="scol"> </input> 
+End Color 
+<input type="text" value="white" style="width:60px;" maxlength="10" id="tcol"> </input> 
+<br /><br />
+<button class="button2 btn2" style=" font-size:12px;" onclick="canvas()">RUN</button>
+
+<canvas id="NewCanvas" width="300" height="200" style="border:1px solid #bdc3c7; background-color:white; margin-top:20px;">
+Your browser does not support.
+</canvas>
+
+</span>
+        </div>
+
+        <div id="section2" style="text-align:center; display: table; width:100%;">
+
+            <span style="display: table-cell;vertical-align: middle;">
+	
+	<h2>if you have any idea, <br /> or like this code
+	</h2> 
+	<p> please vote up and leave a comment and let me know what you think. i will try to keep update and create new contents here when i have free time.<br /> Thank you.</p>
+</span>
+        </div>
+
+
+        <div id="section3" style="text-align:center; display: table; width:100%;">
+
+            <span style="display: table-cell;vertical-align: middle;">
+
+<h2>Thank You all For Coming.</h2>
+<p>See Ya, Have a nice day.</p>
+
+</span>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
